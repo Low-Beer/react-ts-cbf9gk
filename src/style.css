@@ -1,0 +1,233 @@
+/* @import url("base.css"); */
+/* @import url("https://use.typekit.net/rok1zwb.css"); */
+
+:root {
+  
+  --primary: #ef5777;
+  --secondary: #00cec9;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+    
+  --social-color-facebook: rgba(37, 99, 235, 1);
+  --social-color-insta: rgba(236, 72, 153, 1);
+  --social-color-linkedin: rgba(96, 165, 250, 1);
+  --social-color-tiktok: rgba(39, 39, 42, 1);
+  --social-color-youtube: rgba(255, 0, 0, 1);
+} 
+
+* {
+    /* Old colors */
+  --tw-ring-inset: var(--tw-empty, );
+  --fsw-color-grey: rgba(212, 212, 216, 1);
+  --fsw-color-pink: #ef5777;
+  --fsw-color-terracotta: #E2725B;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(59, 130, 246, 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+
+
+  /* New colors - Tucan */
+  --color-t-dark-blue: #017ba0;
+  --color-t-dark-yellow: #eda920;
+  --color-t-turquoise: #1daca8;   /* almost #18afab (Pantone / PMS 2397 CP) */
+  --color-t-terracota: #d75d2a;   /* almost #d8612e (Pantone / PMS - 1595 CP) */
+  --color-t-revell: #EEEEEE;   /* revell */
+  --color-t-polar-white: #EDF4F5;   /* Polar White */
+  
+  
+  /* New colors - https://www.happyhues.co/palettes/14 */
+  --color-hh-ice: #fffffe;   /* main-white */
+  --color-hh-dark: #272343;   /*  */
+  --color-hh-el-paragraph: #2d334a;   /*  */
+  --color-hh-el-secondary: #e3f6f5;   /*  */
+  --color-hh-el-tertiary: #bae8e8;   /*  */
+  --color-hh-yellow: #FFD803;  /* almost school-bus-yellow  */
+  --color-hh-red: rgba(219, 39, 78, 1);
+
+  /* Forro Miudinho */
+  --color-md-yellow: #ffe48c;
+  --color-md-ice: #f0ecdb;
+  --color-md-red: #a93c25;
+  --color-md-orange: #d2762a;
+  --color-md-tan: #dcc66c;
+  --color-md-blue: #72a29e;
+
+/* pink button rgb(219 39 78); */
+
+
+  /* 
+   *  use the following tools:
+   *  https://imagecolorpicker.com/en
+   *  https://encycolorpedia.com/
+   *  https://www.color-name.com/
+   *
+   */
+
+}
+
+/* html {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.5;
+} */
+
+svg {
+  size: 1rem;
+  display: inherit;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  font-family:  "Droid Sans", "Barlow Condensed", sans-serif;
+}
+
+/* * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+} */
+
+h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;  /* 1.875rem; */
+  margin-bottom: 0.5rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+}
+
+h4 { 
+  font-size: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+/* ul {
+  list-style: none;
+} */
+
+/* li {
+  padding-bottom: 3px;
+} */
+
+a {
+  color: #ef5777;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+/* a {
+  text-decoration: none;
+  color: var(--fsw-color-pink);
+  font-weight: 100;
+  font-size: 1.0rem;
+} */
+
+p {
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: rgba(82, 82, 91, 1);
+}
+
+/* socials */
+.facebook {background-color: rgba(37, 99, 235, 1);}
+.insta {background-color: rgba(236, 72, 153, 1);}
+.linkedin {background-color: rgba(96, 165, 250, 1);}
+.tiktok { background-color: rgba(39, 39, 42, 1);}
+.youtube { background-color: rgba(255, 0, 0, 1);}
+
+
+.bg-pink {
+  background-color: rgba(249, 168, 212, 1);
+}
+
+.bg-orange {
+  background-color: rgba(240,132,108, 1);
+}
+
+
+.bg-light-gray {
+  background-color: rgba(244, 244, 245, 1);
+}
+
+/* ******************** RATES PAGE ******************** */
+.rates_gold {
+  background-color: rgb(255, 212, 59);
+  cursor: pointer;
+}
+
+.rates_silver {
+  background-color: #C0C0C0;  /* #A9A9A9; */
+  cursor: pointer;
+}
+
+.rates_bronze {
+  background-color: #CD7F32;
+  cursor: pointer;
+}
+
+
+/* FONTS FROM CS - to be in body */ 
+/* font-family: Lato, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
+
+/* OUTSIDE INC - to be in title */
+/* font-family: Georgia,serif; */
+/* font-family: utopia-std,serif; */
+
+
+/* 
+ *  https://www.outsideinc.com/
+ *  https://unsplash.com/s/photos/dance-beach
+ *  https://unsplash.com/s/photos/dance-beach
+ *  https://apollomapping.com/
+ *  https://airtable.com/pricing
+ *  https://www.businessinsider.com/subscription?r-masthead&IR=C
+ *  https://viralyft.com/buy-instagram-followers
+ *  https://www.gong.io/call-sharing/
+ *  @import url("https://use.typekit.net/rok1zwb.css");
+ *  storage rule in firebase: 
+ *     if request.time < timestamp.date(2023, 1, 1);
+ *
+ */
+
+
+ /* 
+ TODO: 
+  - events general page to
+  - rates: add images from yatch site to db list. 
+ */
+

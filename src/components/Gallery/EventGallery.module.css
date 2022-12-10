@@ -1,0 +1,63 @@
+.event_gallery h2 {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.event_gallery .image {
+  padding-top: 100%;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 30px;
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 992px) {
+  .event_gallery .image {
+    transition: box-shadow 0.3s;
+  }
+  .event_gallery .image:hover,
+  .event_gallery .image:focus,
+  .event_gallery .image:active {
+    box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.45);
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col_12 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.col_6  {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+
+@media (min-width: 768px) {
+  .col_6 {  /* col-lg-3 */
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}

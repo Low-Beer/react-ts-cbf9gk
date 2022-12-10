@@ -1,0 +1,173 @@
+
+.team_wrapper {
+    margin-top: 3rem;
+}
+
+.team_wrapper .group_name {
+    font-family: "Barlow Condensed", sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 30px;
+    color: #ef5777;
+    z-index: 0;
+}
+  
+.team_wrapper .group_name:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #e2725b;
+    height: 3px;
+    width: 100%;
+    z-index: -1;
+}
+  
+.team_wrapper .group_name span {
+    margin: auto;
+    background: white;
+    padding: 0 20px;
+}
+
+.partner_item {
+    display: flex;
+    margin-bottom: 20px;
+    flex-flow: row; /* flex-flow: row-reverse; TODO: */
+    /* width: 300px; */
+    /* min-height: 165px; */
+}
+
+
+/* image */
+.partner_image {
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+  
+.partner_image a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+  
+.partner_image {
+    flex: 0 0 130px;
+}
+  
+.partner_image:before {
+    content: "";
+    padding-top: 100%;
+    float: left;
+}
+
+
+.partner_title {
+    font-size: 16px;
+    font-weight: 700;
+}
+  
+h1.partner_title {
+    margin: 0;
+    white-space: nowrap;
+}
+
+
+.partner_desc {
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: var(--color-md-yellow);
+    position: relative;
+    min-height: 150px;
+}
+  
+.partner_desc .events {
+    position: relative;
+    bottom: -2%;
+}
+  
+.partner_desc .events a {
+    display: inline-block;
+    font-size: 12px;
+    background: var(--fsw-color-terracotta);
+    padding: 3px 6px;
+    color: #fff;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margin-right: 0.5rem;
+}
+
+
+.title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.badge {
+    /* background-color: red; */
+    color: var(--color-t-turquoise);
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+/* test */
+@media (max-width: 992px) {
+    .group_partners .partner_item .partner_image {
+      border-radius: 50%;
+      width: 90px;
+      height: 90px;
+      margin: 20px;
+      top: 20px;
+    }
+  
+    .group_partners .partner_item {
+      display: block;
+      background-color: var(--color-md-yellow);
+    }
+  
+    .team_wrapper .group_name {
+      font-family: "Barlow Condensed", sans-serif;
+      /* text-transform: uppercase; */
+      font-size: 20px;
+      margin: auto;
+      color: #ef5777;
+      z-index: 0;
+      text-align: center;
+      padding-left: 0;
+    }
+  
+    .team_wrapper .group_name:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      background: transparent;
+      height: 3px;
+      width: 100%;
+      z-index: -10;
+    }
+  
+    .team_wrapper .group_name span {
+      margin: auto;
+      justify-content: center;
+      font-weight: bold;
+    }
+  
+    .partner_desc .events {
+      /* margin: 10px; */
+      margin-top: 0.5rem;
+      position: static;
+      /* bottom: 5%; */
+      /* align-content: center; */
+      /* display: block; */
+    }
+}
+
+
+

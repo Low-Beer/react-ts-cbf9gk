@@ -1,0 +1,93 @@
+
+
+.category_heading {
+    /* font-family: "Barlow Condensed", sans-serif; */
+    font-size: 28px;
+    color: #ec4899;
+    text-align: center;
+    font-weight: bold;
+}
+
+.faq_item {
+    border-bottom: 1px dotted #bbb;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .faq_item:last-of-type {
+    margin-bottom: 4rem;
+  }
+  
+  .faq_item input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  .faq_item input:checked + label {
+    color: #212529;
+  }
+  .faq_item input:checked + label .faq_icon {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .faq_item input:checked + label .faq_icon svg * {
+    fill: #212529;
+  }
+  
+  .faq_item input:checked ~ .faq_answer {
+    max-height: 100vh;
+    transition: max-height 0.5s ease-in-out;
+    overflow: visible;
+  }
+  
+  .faq_item label {
+    padding: 10px 0 10px 0;
+    margin-bottom: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 18px;
+    color: #495057;
+    transition: color 0.2s;
+  }
+  
+  .faq_item label:hover,
+  .faq_item label:focus,
+  .faq_item label:active {
+    color: #212529;
+  }
+  
+  .faq_item label:hover .faq_icon svg *,
+  .faq_item label:focus .faq_icon svg *,
+  .faq_item label:active .faq_icon svg * {
+    fill: #212529;
+}
+  
+.faq_item label .faq_icon {
+    width: 20px;
+    height: 40px;
+    margin-right: 5px;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+}
+  
+.faq_item label .faq_icon svg {
+    width: inherit;
+    height: inherit;
+}
+  
+.faq_item label .faq_icon svg * {
+    transition: fill 0.2s;
+    fill: #495057;
+}
+  
+.faq_item .faq_answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s;
+    text-align: justify;
+}

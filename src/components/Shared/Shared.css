@@ -1,0 +1,90 @@
+
+.div-svg-line {
+    bottom: auto;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    position: absolute;
+    margin-top: -5rem;
+    height: "80px";
+    /* z-index: 5; */
+}
+
+.svg-line {
+    position: absolute;
+    bottom: 0px;
+    /* z-index: 6; */
+}
+
+.diag-line-div-svg {
+    color: var(--fsw-color-grey);
+    fill: currentColor;
+  }
+
+
+.section-home-div-cards {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-flow: wrap; */
+    max-width: 1200px;
+    margin: auto;
+    padding-top: -16rem;
+    padding-bottom: 6rem;
+    top: 5rem;
+}
+ 
+@media (min-width: 924px) {
+    .section-home-div-cards {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: auto;
+        padding-top: -16rem;
+        padding-bottom: 1rem;
+        top: 5rem;
+    }
+}
+ 
+.btn {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.btn-div {
+    background-color: rgba(24, 24, 27, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.875rem;    
+    font-weight: 700;    
+    text-transform: uppercase;
+
+    /* space inside btn element  to make it bigger */
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 0.25rem;
+    
+    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow);
+    /* outline: 2px solid transparent;
+    outline-offset: 2px; */
+
+
+}
+
+.btn-div:active {
+    background-color: rgba(65, 65, 70, 1);
+}
+
+/* .btn-div:focus {
+    outline: none;
+    box-shadow: none;
+} */
+
+/* .btn-div:not( :hover ){ 
+    outline: none;
+    box-shadow: none;
+} */

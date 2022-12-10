@@ -1,0 +1,75 @@
+
+
+.diagonal_svg_poli {
+    bottom: auto;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    position: absolute;
+    margin-top: -5rem;
+    height: "80px";
+    z-index: 0;
+}
+
+.svg_line {
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+
+
+.diag_svg {
+    fill: currentColor;
+  }
+
+/* .diag-line-div-svg {
+    color: var(--fsw-color-grey);
+    fill: currentColor;
+} */
+
+
+
+
+/* PAGE WRAPPER */
+.section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--color-hh-ice);
+}
+
+.section_wrapper {  /* page-my */
+    display: block;
+    margin: 100px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1000px;
+}
+
+.section_wrapper .h1 {
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+}
+
+.section_wrapper .p {
+    margin-bottom: 2.5rem;
+    font-size: 1.125rem;
+    color: rgba(82, 82, 91, var(--tw-text-opacity));
+    max-width: 80%;
+    text-align: center;
+}
+
+.sm_button {
+    color: rgba(255, 255, 255, 1);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 9999px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+}

@@ -1,0 +1,156 @@
+
+
+.section {
+    padding-bottom: 0rem;
+    background-color: white;
+    /* margin-top: -10rem; */
+    position: relative;
+}
+
+.section_cards {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-flow: wrap; */
+    max-width: 1200px;
+    margin: auto;
+    padding-top: -16rem;
+    /* padding-bottom: 6rem; */
+    top: 5rem;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.date {
+    font-size: 18px;
+    color: #343a40;
+    font-weight: 700;
+    list-style-type: none;
+}
+
+.teachers {
+    font-size: 18px;
+    color: #343a40;
+    font-weight: 600;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.test {
+    max-width: 1100px;
+    text-align: justify;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.event_thumb {
+    position: relative;
+}
+
+.event_title_wrapper .event_title {
+    max-width: 85%;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 10;
+    -webkit-transform: translateY(-40px);
+    transform: translateY(-40px);
+}
+  
+.event_title_wrapper .event_title h1 span {
+    display: inline-block;
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 0.25rem;
+    font-family: "Barlow Condensed", sans-serif;
+    text-transform: uppercase;
+    box-shadow: 0px -20px 41px 0px rgba(0, 0, 0, 0.25);
+}
+
+.event_partners {
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.event_partners .teachers {
+    padding-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+    .section {
+        padding-bottom: 2rem;
+        /* margin-top: -10rem; */
+        position: relative;
+    }
+    
+    .event_partners .teachers {
+      padding-bottom: 0;
+      bottom: 50px;
+    }
+
+    .section_cards {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: auto;
+        /* padding-top: -16rem; */
+        /* padding-bottom: 1rem; */
+        top: 5rem;
+    }
+}
+ 
+
+
+.event_partners .teachers,
+.event_partners .djs {
+    display: flex;
+    margin: 0 15px;
+}
+
+
+/*  */
+.event_card {
+    margin-top: -5rem;
+}
+
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+    .col_12 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+}
